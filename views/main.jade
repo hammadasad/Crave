@@ -1,4 +1,13 @@
 extends layout
 
 block content
-    div(id="containerMain")
+  link(rel='stylesheet', href='/stylesheets/main.css')
+  link(rel='stylesheet', href='/stylesheets/buttons.css')
+  link(href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css')
+  div(id="mapContainer")
+  div(id="sidePanel")
+  script(src='/javascripts/jquery-2.1.3.min.js')
+  script(src='https://maps.googleapis.com/maps/api/js?v=3')
+  script(src='/javascripts/snazzymaps.js')
+  script(src='/javascripts/buttons.js')
+  script(src="javascripts/main2.js")

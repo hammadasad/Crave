@@ -1,0 +1,45 @@
+#mapContainer {
+	background-color: black;
+	width: 75%;
+	height: 100vh;
+	display:block-inline;
+	float:left;
+}
+#sidePanel {
+	background-color: #222;
+	width:25%;
+	height:100vh;
+	display:block-inline;
+	float:right;
+	overflow: auto;
+}
+
+.panel {
+    width: 100%;
+    height: 200px;
+    margin: 0 0 1px 0;
+}
+
+.anImage {
+	float: left;
+}
+
+.customTitle{
+   font-family:'Satisfy';
+   font-style:normal;
+   color: white;
+   text-align:center;
+   word-wrap: break-word;
+}
+
+.customTitleLeft{
+   font-family:'Satisfy';
+   font-style:normal;
+   color: black;
+   text-align:left;
+   word-wrap: break-word;
+}
+
+.glow {
+	opacity: 0.45;
+}
